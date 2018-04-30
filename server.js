@@ -79,6 +79,18 @@ pageTitle: 'About Page',
 
 });
 
+app.get('/Projects', (req, res) => {
+
+res.render('projects.hbs', {
+
+pageTitle: 'Portfolio Page',
+
+
+});
+
+
+});
+
 app.get('/bad', (req, res) => {
 
 res.send({
